@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="design.css" />
+
+    <!-- jQuery library -->
+  </head>
+
+  <body>
+    <section class="container">
+      <h5 class="headbill">Bill</h5>
+      <input type="number" class="bill" />
+      <h5>Select Tip %</h5>
+      <button class="btn5">5%</button>&nbsp;
+      <button class="btn10">10%</button>&nbsp; <button class="btn15">15%</button
+      ><br />
+      <button class="btn25">25%</button>&nbsp;
+      <button class="btn50">50%</button>&nbsp;
+      <input type="number" class="custom" placeholder="CUSTOM" />
+      <h5>Number of People</h5>
+      <input type="number" class="number-people" />
+
+      <div class="tip-cal">
+        <h5 class="tip-amount">
+          Tip Amount <span class="amount-value">0.00</span>
+        </h5>
+        <p>/ &nbsp; person</p>
+        <h5 class="total">Total <span class="total-value">0.00</span></h5>
+        <p>/ &nbsp; person</p>
+        <button class="reset">RESET</button>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by-
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ugochukwu Miracle</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
