@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+body {
+  background-color: rgb(169, 214, 224);
+  /* font-family: "Martel", serif; */
+  font-family: "Space Mono", monospace;
+  font-weight: 400, 500, 700;
+}
+
+button:hover {
+  background-color: black;
+  box-shadow: tomato;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(168, 168, 168);
+}
+
+p {
+  color: #75bbbb;
+  position: relative;
+  bottom: 2rem;
+  font-size: 12px;
+}
+
+.container {
+  position: relative;
+  padding: 10px 0 0 30px;
+  background-color: white;
+  left: 25rem;
+  bottom: 2rem;
+  top: 13rem;
+  width: 700px;
+  height: 350px;
+  border-radius: 1rem;
+}
+
+.tip-cal {
+  position: absolute;
+  padding: 10px 0 0 30px;
+  background-color: #0a5555;
+  width: 310px;
+  height: 320px;
+  border-radius: 1rem;
+  left: 23rem;
+  bottom: 1rem;
+}
+
+button {
+  position: relative;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background-color: #0a5555;
+  border-radius: 5px;
+  bottom: 1.2rem;
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-weight: 400, 500, 700;
+  font-size: 24px;
+}
+
+.btn25,
+.btn50 {
+  position: relative;
+  top: 0.1rem;
+}
+
+.btn15 {
+  background-color: #75bbbb;
+}
+
+input {
+  background-color: #f1f4f6;
+  border: none;
+  width: 260px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: end;
+  color: #4f8a8a;
+  font-family: "Space Mono", monospace;
+  font-weight: 400, 500, 700;
+  font-size: 24px;
+  padding: 0 15-px 0 0;
+}
+
+.bill {
+  position: relative;
+  bottom: 1.3rem;
+}
+
+.tip-amount {
+  color: white;
+}
+
+.amount-value {
+  color: #75bbbb;
+  font-size: xx-large;
+  position: relative;
+  left: 7.4rem;
+}
+
+.total {
+  color: white;
+}
+
+.total-value {
+  color: #75bbbb;
+  font-size: xx-large;
+  position: relative;
+  left: 10rem;
+}
+
+.custom {
+  position: relative;
+  width: 75px;
+  height: 40px;
+  top: 0.1rem;
+  font-size: 15px;
+}
+
+.reset {
+  background-color: #75bbbb;
+  position: relative;
+  width: 230px;
+  top: 0.5rem;
+  left: 10%;
+  font-family: "Space Mono", monospace;
+  font-weight: 400, 500, 700;
+}
+.number-people {
+  position: relative;
+  bottom: 1.3rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 25rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
